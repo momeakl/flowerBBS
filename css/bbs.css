@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  '幼圆',helvetcia,sans-serif;
+}
+body{
+    background-color:firebrick;
+}
+/*菜单*/
+nav#menu{
+    position: relative;
+}
+nav#menu p{
+    float: left;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: "Comic Sans MS","幼圆";
+    color: coral;
+}
+nav#menu ul li{
+    list-style-type: none;
+    float: left;
+    margin: 10px 0 5px 22px;
+}
+nav#menu2 ul li{
+    list-style-type: none;
+    float: left;
+    margin: 10px 0 5px 50px;
+}
+section.title{
+    position: relative;
+}
+
+section.title img{
+    max-height: 60px;
+    float: right;
+    margin-right: -150px;
+    
+}
+/*主题列表+表格居中*/
+table{
+    margin: 10px auto;
+}
+td.topic{
+    text-indent: 15px;
+}
+td.topic a{
+    color:#f96;
+}
+td.topic a:hover{
+    text-decoration: underline;
+}
+td.topic a:visited{
+    color:dimgray;
+}
+td,legend {
+    font-size: 15px;
+    line-height: 35px;
+}
+
+/*错误信息(返回)*/
+p.message{
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+p.message a{
+    color:blue;
+}
+/*头部样式*/
+#header {
+    margin: 10px auto;
+    padding:10px 0 20px 1px;
+    border-radius: 20px;
+    box-shadow: 0 12px 8px -9px #555;
+    background:  #EEE8AA;
+    font-size: 14px;
+    height: 20px;
+    width: 80%;
+}
+#header h1{
+    float: right;
+    color: darkorange;
+    font-size: 25px;
+    font-weight: 600;
+    margin: -10px 200px 20px 0;
+}
+
+body div#header{
+    background-image:url(../images/flower5.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+div#header nav li{
+    margin-top: 0.5%;
+}
+div#header a{
+    font-size: 15px;
+    font-weight: 600;
+    color:black;
+}
+/*设定整体链接样式*/
+ a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/*尾部样式*/
+section#end {
+    margin-left: 40%;
+    height: 20px;
+    width: 60%;
+}
+section#end p{
+    font-size: 12px;
+}
+section#end h2{
+    display: inline;
+    font-size: 20px;
+}
+section#end img{
+    max-height: 80px;
+    margin-top: 20px;
+    margin-left: -120px;
+    opacity: 0.5;
+}
+
+p.info{
+    text-align: right;
+    margin-right: 20px;
+    font-size: 15px;
+}
+p.info a{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+/*分页*/
+p.prevpage {
+    text-align: right;
+    margin-right:10%;
+}
+p.prevpage a{
+    font-size: 12px;
+    margin-top: 10px;
+    color: coral;
+    font-weight: 700;
+}
+/*注册提交出错*/
+p.error{
+    margin-left: 40%;
+    margin-top: 90px;
+    color: darkorange;
+}
+
+
+/*view_topic主题*/
+div.setTopic{
+    margin-top: 40px;
+    margin-left: 32%;
+    padding: 10px;
+    border: 2px dashed gray;
+    border-bottom: 0;
+    box-shadow:  0 12px 8px -9px #555;
+    border-radius: 20px;
+    width: 500px;
+}
+div.setTopic p{
+    margin-top: 10px;
+    margin-right: 19%;
+}
+/*发帖框*/
+div.title{
+    border-radius: 20px;
+    box-shadow:  0 12px 8px -9px #555;
+}
+/*正文框*/
+div.detial {
+    width: 60%;
+    height: 16%;
+    background-color: beige;
+    margin: 50px auto;
+    border-radius: 25px;
+    box-shadow: 0 12px 8px -9px #555;
+    position: relative;
+    padding-top: 10px;
+}
+/*div.detial img{   //大头针，不好看，先留着
+    max-height: 50px;
+    float: right;
+    margin-top: -30px;
+    opacity: 0
+}*/
+div.detial p.article{
+    margin-left: 20px;
+}
+div.detial div.user{
+    margin-left: 70%;
+    margin-top: 7%;
+}
+div.detial div.user p{
+    font-size: 12px;
+    color: dodgerblue;
+}
+/*评论部分*/
+div.result {
+    margin-left: 20%;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+div.result p{
+    font-weight: 650;
+}
+div.result section{
+    width: 70%;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0 12px 8px -9px #555;
+    margin-top: 20px;
+}
+div.result section p{
+    font-size: 15px;
+    padding:10px 50px 10px 20px;
+}
+/*编辑个人资料*/
+div.editUser{
+    margin: 25px 15px 80px 15px;
+}
+div.editUser legend{
+    margin-left: 19px;
+    font-size: 20px;
+}
+div.editUser fieldset{
+    background:url(../images/header-background2.png);
+    border: dashed gray;
+    border-radius: 30px;
+}
+div.editUser input[type=submit]{
+    margin-right: 300px;
+}
+/*注册页面*/
+div.createUser{
+    margin-left: 13%;
+    margin-bottom: 90px;
+    width: 400px;
+}
+div.createUser fieldset{
+    border: dashed gray;
+    border-radius: 50px;
+}
+div.createUser fieldset legend{
+    margin-left: 20px;
+}
+div.createUser table{
+    margin-left: 300px;
+}
+div.createUser legend{
+    font-size: 25px;
+    font-family: "Comic Sans MS","幼圆";
+}
+/*用户创建成功*/
+div.addUser{
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px dashed gray;
+}
+div.addUser p{
+    margin-top: 20px;
+}
+div.addUser p a{
+    margin-left: 1px;
+    color: red;
+}
+/*更新用户资料*/
+div.updateUser{
+    margin-top: 80px;
+    width: 30%;
+    margin-left: 33%;
+    margin-bottom: 300px;
+    border: 2px dashed gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+div.updateUser h2{
+    margin-bottom: 20px;
+}
+div.updateUser  a{
+    margin-left: 1px;
+    color: red;
+}
+
+
+
+/*登录界面*/
+
+div#Login_in{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 14%;
+    width: 80%;
+}
+div#Login_in h2{
+    margin-left: -500px;
+}
+div#Login_in input[type=submit]{
+    margin-top:30px;
+    margin-right: 180px;
+}
+div#Login_in table input{
+    height: 40px;
+    width: 250px;
+}
+
+/*主界面列表项*/
+div.list h2{
+    margin-left: 10%;
+    margin-top: 20px;
+    font-family: "幼圆","Comic Sans MS";
+}
+div.list section.user{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    font-size: 13px;
+    font-family: "Comic Sans MS";
+    color: burlywood;
+}
+div.list table td{
+    border-bottom: 1px dashed;
+}
+/*发帖要求*/
+div.createTopic section.one{
+    width: 70%;
+    margin-left: 12%;
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 35px;
+    border: 2px dashed gray;
+    border-bottom: 0;
+    border-radius: 20px;
+    box-shadow:  0 12px 8px -9px #555;
+}
+div.createTopic section.one h2{
+    font-family: "Comic Sans MS";
+    font-weight: 600;
+    margin-top: -10px;
+}
+div.createTopic section.one ul{
+    margin-left: 30px;
+}
+div.createTopic section.one ul li{
+    padding: 5px;
+}
+/*发帖部分(相当于重写)*/
+div.createTopic section.two table{
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+div.createTopic section.two input[type=text]{
+    height: 40px;
+    width: 400px;
+    padding-left: 15px;
+    border-radius: 25px;
+}
+div.createTopic section.two textarea{
+    resize: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 16px;
+    margin-top: 20px;
+    margin-left: -10px;
+    opacity: 0.7;
+}
+div.createTopic section.two p{
+    display: inline;
+}
+div.createTopic section.two p.stick{
+    margin-left: 32%;    
+}
+/*发帖提交*/
+div.createTopic section.submit{
+    float: right;
+    margin-right: 35%;
+    margin-top: -55px;
+}
+/*发帖页面未登录*/
+div.noregister{
+    margin-top: 80px;
+    margin-bottom: 300px;
+    margin-left: 25%;
+    border: 2px dashed gray;
+    border-radius: 20px;
+    width: 50%;
+    padding: 20px 20px 20px 60px;
+}
+div.noregister p{
+    margin-top: 20px;
+}
+div.noregister a{margin-left: 1px;}
+/*查看发帖人信息*/
+div.user_info{
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 280px;
+    margin-bottom: 100px;
+}
+div.user_info h2{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+div.user_info legend{
+    font-size: 22px;
+}
+div.user_info fieldset{
+    background:url(../images/header-background2.png) top right repeat;
+    padding: 30px;
+    border: dashed gray;
+    border-radius: 30px;
+}
+div.user_info input[type="button"]{
+    margin-left: 280px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+div.user_info table{
+    margin-left: 120px;
+}
+div.user_info table td{
+    font-size: 20px;
+    color:darkorange;
+}
+/*未注册相关提示*/
+div.replyText p.noregist{
+    width: 30%;
+    margin-left: 30%;
+    margin-bottom: 50px;
+    border: 2px dashed gray;
+    border-radius: 20px;
+    padding: 30px 30px 30px 110px;;
+}
+div.replyText p.noregist a{
+    margin-left: 1px;
+    color: red;
+}
+/*圆形复选框开始*/
+div.createTopic input[type=checkbox]{
+    visibility: hidden;
+}
+/**/
+div.checkboxFour {
+	width: 40px;
+	height: 40px;
+	background: #ddd;
+	margin-left: 40%;
+    margin-top: -30px;
+	border-radius: 100%;
+	position: relative;
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+div.checkboxFour label {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+ 
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 1;
+ 
+	background: #333;
+ 
+	-webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+div.checkboxFour input[type=checkbox]:checked + label {
+	background: #26ca28;
+}
+/*圆形复选框结束*/
+
+/*评论框*/
+textarea.coolscrollbar{
+    resize: none;
+    padding: 20px;
+    border-radius: 20px;
+    color:#ce6666;
+    outline: none;
+    margin-top: -35px;
+}
+/*所以页面的input*/
+body input{
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 5px 1px 8px;
+    background-color: #fff;
+    height: 25px;
+    outline:none;
+}
+body input[type=submit]{
+    cursor: pointer;
+    opacity: 0.8; 
+}
+body input[type=reset]{
+    cursor: pointer;
+    opacity: 0.8; 
+}
+input[type=submit]:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+input[type=reset]:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+/*主页面(创建新帖)*/
+section.button{
+    float: right;
+    margin-right: 20%;
+    margin-top: -30px;
+}
+/*主页面置顶提示*/
+section.message{
+    margin-top: 10px;
+    margin-left: 10%;
+}
+section.message h3{
+    font-family: "Comic Sans MS";
+}
+/*置顶图片*/
+div.list img,section.message img{
+    max-height: 25px;
+    max-width: 20px;
+    margin-right: -5px;
+}
+div.list img{
+    margin-right: -25px;
+}
+
+/*登录后显示*/
+div#admin{
+    margin-left: 40%;
+    margin-right: 20%;
+    margin-top: -30px;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+/* 注册验证 */
+p.msg {
+    display: none;
+}
+p.msg i {
+    margin-right: 5px;
+    margin-left: 30px;
+    margin-top: -5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+form#Register {
+    margin-left: 40px;
+}
+
+form#Register p.msg{
+    float: left;
+    margin-left: -150px;
+    color: darkorange;
+    margin-top: 5px;
+}
+
+/*backspace后退*/
+
+img#x{
+    max-height: 35px;
+    float: left;
+    margin-left: 80px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+img#x:hover{
+    opacity: 1;
+}
