@@ -1,4 +1,4 @@
-![bishi](http://7xonct.com1.z0.glb.clouddn.com/rabit/bisihi.gif)
+# :stuck_out_tongue::stuck_out_tongue: bbs简易论坛 :stuck_out_tongue::stuck_out_tongue:
 
 
 ## 基于php的花之语论坛
