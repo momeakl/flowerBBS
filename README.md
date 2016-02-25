@@ -23,7 +23,7 @@
 ## The bbs based on php
 This is the course design in my junior year,I have to say the UI of this bbs is too simple and it still has some  problem I know and I don't know.
 
-Recently I'm gonna to rewrite the code to make the bbs have a responsive and more friendly UI,and of course I will try my best to find and solve the proble exiting in this bbs.
+Recently I'm gonna to rewrite the code to make the bbs have a responsive and more friendly UI,and of course I will try my best to find and solve the problem exiting in this bbs.
 
 In a word, welcome to communicate with me. Thank you~:stuck_out_tongue::stuck_out_tongue:
 
