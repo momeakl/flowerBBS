@@ -10,3 +10,21 @@
 
 ## 补充
 星星突然多了不少，表示非常惊喜，决定这一段时间给代码做个全面修改，让界面更加友好一些，同时也做成响应式的。哈哈，敬请期待~~  2016/2/19
+ 
+ 
+为方便交流， 我决定以后文档也开始注明英语说明
+
+-------------我是一条分割线-------------------------
+
+
+# :stuck_out_tongue::stuck_out_tongue: Simple BBS :stuck_out_tongue::stuck_out_tongue:
+
+
+## The bbs based on php
+This is the course design in my junior year,I have to say the UI of this bbs is too simple and it still has some  problem I know and I don't know.
+
+Recently I'm gonna to rewrite the code to make the bbs have a responsive and more friendly UI,and of course I will try my best to find and solve the proble exiting in this bbs.
+
+In a word, welcome to communicate with me. Thank you~:stuck_out_tongue::stuck_out_tongue:
+
+
